@@ -20,7 +20,7 @@ void hal_i2c_init();
 void app_main(void)
 {
 	BME680_calib_t		NVM_coef;
-	float				press_comp, hum_comp, tempe_comp;
+	float			press_comp, hum_comp, tempe_comp;
 
 	hal_i2c_init();
 
